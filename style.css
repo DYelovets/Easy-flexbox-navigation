@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 
 body{
     margin: 10px;
@@ -9,26 +11,23 @@ body{
     min-width: 600px;
     background-color: black;
     color: white;
-    justify-content: flex-start;
-    padding: 30px 50px;
+    padding: 30px 0px;
     flex-flow:row wrap;
     }
 
 .name{
-    flex: 0 1 30%;
-    min-width: 375px;
-    padding:25px 0;
+    flex: 0 1 27%;
+    min-width: 300px;
+    padding:25px 10px;
     font-family: 'Spinnaker', sans-serif;
     font-size: 35px;
     text-align: center;
-    
-
-}
+    }
 
 .navigation{
-    flex: 0 1 40%;
+    flex: 0 1 46%;
     min-width: 500px;
-    padding:40px 0;
+    padding:43px 0;
     text-align: center;
   
 }
@@ -41,7 +40,6 @@ ul{
 
 li{
     display: inline-block;
-    margin: 0 auto;
     padding: 0 20px;
     font-size: 18px;
     font-weight: bold;
@@ -49,27 +47,24 @@ li{
     list-style: none;
     }
 
-
 a{
    text-align: center;
    text-decoration: none;
    color: white;
-}     
-
-.btn {
-    flex: 0 1 30%;
-    min-width: 300px;
+ }     
+ .btn {
+    flex: 0 1 27%;
+    min-width: 270px;
     padding:45px 0;
     text-align: center;
       }
 
- .btn>a{  
-    font-family: 'Spinnaker', sans-serif;
-    font-size: 16px;
-    margin-left: 30px ;
-    padding: 10px 20px;
-    text-align: center;
-    border: 1px solid white;
+.btn>a{  
+     font-family: 'Spinnaker', sans-serif;
+     font-size: 16px;
+     padding: 10px 20px;
+     border: 1px solid white;
+     border-radius: 5px;
      }   
 
      
